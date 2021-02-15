@@ -52,7 +52,7 @@ public class Controller implements Initializable {
 	private void convert() {
 
 		String input = userInputField.getText();
-		float resultTemp = 0.0f, inputTemp = 0.0f;
+		float resultTemp, inputTemp;
 		try {
 			inputTemp = Float.parseFloat(input);
 		} catch (Exception e1) {
