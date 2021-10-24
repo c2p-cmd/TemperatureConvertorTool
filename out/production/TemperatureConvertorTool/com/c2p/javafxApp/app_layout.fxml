@@ -4,19 +4,20 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="263.0" prefWidth="317.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.c2p.javafxApp.Controller">
-    <children>
-        <Pane prefHeight="267.0" prefWidth="318.0">
-            <children>
-                <Label alignment="BASELINE_CENTER" layoutX="-2.0" layoutY="39.0" prefHeight="21.0" prefWidth="318.0" text="Welcome" textAlignment="CENTER">
-                    <font>
-                        <Font name="SansSerif Bold" size="18.0" />
-                    </font>
-                </Label>
-                <ChoiceBox fx:id="choiceBox" layoutX="76.0" layoutY="86.0" prefHeight="25.0" prefWidth="167.0" />
-                <TextField fx:id="userInputField" layoutX="77.0" layoutY="138.0" prefHeight="25.0" prefWidth="167.0" promptText="Enter Temperature" />
-                <Button fx:id="convertBtn" layoutX="105.0" layoutY="189.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="105.0" text="Convert" />
-            </children>
-        </Pane>
-    </children>
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="263.0"
+      prefWidth="317.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.c2p.javafxApp.Controller">
+    <Pane prefHeight="267.0" prefWidth="318.0">
+        <Label alignment="BASELINE_CENTER" layoutX="-2.0" layoutY="39.0" prefHeight="21.0" prefWidth="318.0"
+               text="Welcome" textAlignment="CENTER">
+            <font>
+                <Font name="SansSerif Bold" size="18.0"/>
+            </font>
+        </Label>
+        <ChoiceBox fx:id="choiceBox" layoutX="76.0" layoutY="86.0" prefHeight="25.0" prefWidth="167.0"/>
+        <TextField fx:id="userInputField" layoutX="77.0" layoutY="138.0" prefHeight="25.0" prefWidth="167.0"
+                   promptText="Enter Temperature"/>
+        <Button fx:id="convertBtn" layoutX="105.0" layoutY="189.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="105.0" text="Convert"/>
+    </Pane>
 </VBox>
